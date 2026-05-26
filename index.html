@@ -3,13 +3,27 @@
 
 <head> <!-- Cabeçalho do site -->
     <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
-    <title>Projeto Base</title> <!-- Título da aba do navegador -->
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>10 motivos para se matar</title> <!-- Título da aba do navegador -->
 
     <link rel="stylesheet" type="text/css" href="style.css"> <!-- Conecta o arquivo CSS -->
 </head>
 
 <body> <!-- Corpo visível do site -->
+    <div class="menu-btn" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
 
+    </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">inicio</li>
+            <li><a href="#">sobre</li>
+            <li><a href="#">contato</li>
+        </ul>
+    </nav> 
     <h1>10 motivos para se matar</h1> <!-- Título principal da página -->
     <h2>motivo 1; n sei</h2>
     <h3>motivo 2: nao sei </h3>
@@ -39,6 +53,13 @@
     <b>PARAAA DE ELEER</b>
     
 
-  
+  <script>
+      function toggleMenu(){
+          document.querySelector(".menu-btn).classList.toggle("active");
+
+          document.querySelector(".menu").classList.toggle("active");
+          
+  </script>
+  </script>
 </body>
 
